@@ -1,5 +1,5 @@
-## The function below reads the data file "household_power_consumption.txt" and plots the second graph - Global Active Power with Time
-## for the data within a two day range - 1st Feb 2007 and 2nd Feb 2007.
+## The function below reads the data file "household_power_consumption.txt" and plots the third graph - Energy Sub metering with Time
+## Data within a two day range - 1st Feb 2007 and 2nd Feb 2007 is considered.
 ## The graphs are generated as PNG images and stored as separate files.
 ## The data file has over 2 million records. The function does the following: a) Reads all the rows (replace "?" character with NA), b) subsets the data frame to get data for the 2 days, c) concatenate the date and time fields to form a datetime field and d) plot the graphs
 plot3 <- function() {

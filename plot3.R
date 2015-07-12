@@ -21,7 +21,7 @@ plot3 <- function() {
 	# Open the png device - by default its 480 x 480 pixels wide
 	png("plot3.png")
 	
-	# Plot the histogram with x,y labels and title
+	# Plot the line graphs depicting energy sub metering
 	plot(sel_power_data$DateAndTime,sel_power_data$Sub_metering_1, main="", xlab="", ylab="Energy sub metering", type="l")
 	lines(sel_power_data$DateAndTime, sel_power_data$Sub_metering_2, type="l", col="red")	
 	lines(sel_power_data$DateAndTime, sel_power_data$Sub_metering_3, type="l", col="blue")

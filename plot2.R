@@ -19,7 +19,7 @@ plot2 <- function() {
 	# Open the png device - by default its 480 x 480 pixels wide
 	png("plot2.png")
 	
-	# Plot the histogram with x,y labels and title
+	# Plot the line plot depicting global active power with time
 	plot(sel_power_data$DateAndTime,sel_power_data$Global_active_power, main="", xlab="", ylab="Global Active Power (kilowatts)", type="l")	
 	
 	dev.off()  	    
